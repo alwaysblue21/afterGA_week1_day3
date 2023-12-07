@@ -28,3 +28,20 @@ console.log(1 != 1)
 console.log(1 != 2)
 console.log('1' != 1)
 console.log('1' != 2)
+
+// ==============================
+
+// lets experiment
+
+console.log(
+    1 === 1,
+    'beans' === 'Beans',
+    (5 + 5 - 3) ===  ((5 + 5) - 3),
+    9 === false,
+    "A" < "a",
+    'Burger King' < 'McDonalds',
+    NaN === NaN,
+    (5 + 5 * 3) ===  ((5 + 5) * 3),
+    "A" > "a",
+    'Burger King' > 'McDonalds',
+)
