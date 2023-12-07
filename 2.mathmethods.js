@@ -1,5 +1,7 @@
 // operators and methods
 
+
+// OPERATORS
 // + addition
 console.log(1 + 1);
 
@@ -41,3 +43,33 @@ console.log(z)
 let aa = 101;
 aa-=10
 console.log(aa)
+
+// methods
+
+
+// Math.ceil() function returns the smallest integer greater than or equal to a given number. 
+console.log(Math.ceil(4.1))
+console.log(Math.ceil(-4.1))
+
+
+// Math.max() returns the largest of the numbers.
+console.log(Math.max(-Infinity, 1, 2, 1000, 0))
+
+
+// Math.min() returns the smallest of the numbers.
+console.log(Math.min(-Infinity, 1, 2, 1000, 0))
+
+
+// Math.random() return a value in between 0 and 1
+console.log(Math.random());
+
+// Math.floor() return the largest interger greater than  or queal to give number (sworn nemisis of Math.ceil())
+console.log(Math.floor(4.1)) //4
+console.log(Math.floor(-4.1)) //-5
+
+
+// Math.round() return the value of the next closest interger
+console.log(Math.round(4.1)) //4
+console.log(Math.round(-4.1)) //-4
+console.log(Math.round(4.6)) //4
+console.log(Math.round(-4.6)) //-4
