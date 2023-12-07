@@ -70,6 +70,17 @@ console.log(arrTwo[1])
 
 // ============================================== //
 
+const david = "David";
+let issac = "issac c";
+issac = "issac a"
+
+// let and const are block scope { }
+// var was function scoped
+
+// ============================================== //
+
+console.log(typeof "1")
+console.log(typeof 1)
 
 
 
