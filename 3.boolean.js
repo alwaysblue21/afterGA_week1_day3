@@ -45,3 +45,50 @@ console.log(
     "A" > "a",
     'Burger King' > 'McDonalds',
 )
+
+// ==============================
+
+// operators that get boolean
+// && and 
+// true and false -> on AND all need to be true
+// || or
+// true or false -> on OR only 1 needs to be true
+console.log("=====")
+
+
+console.log(
+    true && true && true && false
+)
+
+console.log( false || false || false || true)
+
+
+
+console.log(
+    true || true || true && false
+)
+
+
+// ==============================
+
+// truthy and falsey
+
+// falsey's are
+// 0
+// false
+// ''
+// NaN
+// null
+// undefined
+
+
+//truthy is everything thats not a falsey
+
+console.log(true || false)
+console.log(null || 'string')
+
+// ==============================
+
+
+// !! bang
+// return the value TRUE or FALSE based on truthy or falsey
