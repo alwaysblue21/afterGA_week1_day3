@@ -71,5 +71,5 @@ console.log(Math.floor(-4.1)) //-5
 // Math.round() return the value of the next closest interger
 console.log(Math.round(4.1)) //4
 console.log(Math.round(-4.1)) //-4
-console.log(Math.round(4.6)) //4
-console.log(Math.round(-4.6)) //-4
+console.log(Math.round(4.6)) //5
+console.log(Math.round(-4.6)) //-5
