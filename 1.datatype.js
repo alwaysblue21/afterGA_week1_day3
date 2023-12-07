@@ -26,5 +26,31 @@ console.log(false)
 console.log(null)
 console.log(undefined)
 
+// variables
+// A variable can be made up of letters, numbers and some characters (like _ and $). It cannot start with a number. It is capable of holding any kind of data.
+// It is NOT wrapped in quotes - this is how JavaScript distinguishes a string (has quotes) versus a variable (no quotes)
+// It must be declared using let or const. You can use var, but var is an older syntax.
+
+let jemin = "jemin";
+// let 1jemin = "1jemin"
+
+let z;
+let y = "y";
+let x = 1;
+
+// =========================================== //
+
+let obj = {
+    animal: "dog",
+    name: "spike",
+    age: 1,
+    abilities: ["bubble blast", "lickem", "tackle"],
+    ishuman: false,
+}
+
+// =========================================== //
+
+
+
 
 
