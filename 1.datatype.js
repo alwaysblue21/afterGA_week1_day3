@@ -48,7 +48,27 @@ let obj = {
     ishuman: false,
 }
 
+console.log(
+    obj.animal,
+    obj["animal"]
+)
+
 // =========================================== //
+// An array is represented with square brackets [] and each item is separated by commas.
+// the elements have an order that starts with 0.
+let arr = [1, 2, 3, 4, 5]
+
+let arrTwo = [
+    100,
+    "hello world",
+    false,
+    null,
+    { name: "spike"}
+]
+
+console.log(arrTwo[1])
+
+// ============================================== //
 
 
 
