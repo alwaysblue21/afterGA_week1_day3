@@ -12,7 +12,7 @@ if(isMMColorGreen){
 }
 
 if(false){
-    console.log('frist block')
+    console.log('first block')
 }else if(0){
     console.log('2nd block')
 }else {
