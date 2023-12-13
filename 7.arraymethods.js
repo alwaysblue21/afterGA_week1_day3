@@ -77,7 +77,7 @@ console.log(beasts)
 // console.log(months);
 
 
-// const arrayOne = [1, 30, 4, 21, 100000];
+// const arrayOne = [1, 30, 4, 21, 100000 , 0];
 // arrayOne.sort();
 // console.log(arrayOne);
 
